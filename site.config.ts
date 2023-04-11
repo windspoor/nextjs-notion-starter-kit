@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Coffee Home',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'coffeehome.vercel.app',
   author: 'kris',
 
   // open graph metadata (optional)
