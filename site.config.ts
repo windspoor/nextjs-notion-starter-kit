@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Coffee Home',
-  domain: 'coffeehome.vercel.app',
+  name: 'Coffee Chronicles',
+  domain: 'coffee4u.xyz',
   author: 'kris',
 
   // open graph metadata (optional)
-  description: 'Coffee Home',
+  description: 'Aromatic Adventures in the World of Brews',
 
   // social usernames (optional)
   twitter: '',
