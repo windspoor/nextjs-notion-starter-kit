@@ -22,15 +22,6 @@ export const PageHead: React.FC<
 
   return (
     <Head>
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4QE697S5R8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4QE697S5R8');
-</script>
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
@@ -43,7 +34,22 @@ export const PageHead: React.FC<
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
-
+      <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-4QE697S5R8`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4QE697S5R8', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
       {site && (
         <>
           <meta property='og:site_name' content={site.name} />
