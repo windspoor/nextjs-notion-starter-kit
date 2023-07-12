@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Coffee Chronicles',
   domain: 'coffee4u.xyz',
-  author: 'kris',
+  author: 'Kris',
 
   // open graph metadata (optional)
   description: 'Aromatic Adventures in the World of Brews',
