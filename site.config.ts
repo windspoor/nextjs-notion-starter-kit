@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Coffee Chronicles',
-  domain: 'coffee4u.xyz',
+  domain: 'snakebaby.com',
   author: 'Kris',
 
   // open graph metadata (optional)
