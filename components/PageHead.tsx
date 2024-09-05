@@ -24,11 +24,12 @@ export const PageHead: React.FC<
     <Head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-4QE697S5R8"></script>
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-4QE697S5R8');
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4QE697S5R8');
+        `}
       </script>
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
