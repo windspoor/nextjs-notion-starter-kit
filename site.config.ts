@@ -8,7 +8,7 @@ export default siteConfig({
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
-  // basic site info (required)
+  // update basic site info (required)
   name: 'Coffee Chronicles',
   domain: 'snakebaby.com',
   author: 'Kris',
